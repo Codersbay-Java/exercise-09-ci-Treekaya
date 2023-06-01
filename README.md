@@ -9,4 +9,4 @@
 
 
 
-  ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+  ![example workflow](https://github.com/github/docs/actions/workflows/ubuntu-run-tests.yaml/badge.svg?event=push)
