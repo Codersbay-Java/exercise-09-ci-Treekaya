@@ -11,17 +11,17 @@ public class CalculatorTest {
 
     @Test
     void testSubtract() {
-        Assertions.fail("Test not implemented");
+        Assertions.assertEquals(Calculator.subtract(3, 3), 0);
     }
 
     @Test
     void testMultiply() {
-        Assertions.fail("Test not implemented");
+        Assertions.assertEquals(4, Calculator.multiply(2, 2));
     }
 
     @Test
     void testDivide() {
-        Assertions.fail("Test not implemented");
+        Assertions.assertEquals(2, Calculator.divide(2, 1));
     }
 
     /**
@@ -29,13 +29,24 @@ public class CalculatorTest {
      */
     @Test
     void testDivideByZeroException() {
-        Assertions.fail("Test not implemented");    }
+        Assertions.assertThrows(ArithmeticException.class, () -> {
+            Calculator.divide(4, 0);
+        });
+    }
 
     /**
      * checks if the correct error message is thrown
      */
     @Test
     void testDivideByZeroExceptionMessage() {
-        Assertions.fail("Test not implemented");
+        ArithmeticException exception = Assertions.assertThrows(ArithmeticException.class, () -> {
+            Calculator.divide(4, 0);
+        });
+
+        String expectedMessage = "Cannot divide by zero";
+        String actualMessage = exception.getMessage();
+
+        Assertions.assertEquals(expectedMessage, actualMessage);
     }
+
 }
