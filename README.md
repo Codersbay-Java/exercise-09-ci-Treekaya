@@ -9,4 +9,4 @@
 
 
 
-  ![ubuntu-run-tests](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+  ![ubuntu-run-tests](https://github.com/Codersbay-Java/exercise-09-ci-Treekaya/actions/workflows/ubuntu-run-tests.yaml/badge.svg?event=push)
