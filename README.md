@@ -6,3 +6,7 @@
 - Add another action which executes the tests on Windows.
 - Add a badge for it.
 - Fail one of them and check the badges.
+
+
+
+  ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
