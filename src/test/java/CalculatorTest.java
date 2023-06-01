@@ -30,7 +30,7 @@ public class CalculatorTest {
     @Test
     void testDivideByZeroException() {
         Assertions.assertThrows(ArithmeticException.class, () -> {
-            Calculator.divide(4, 0);
+            Calculator.divide(4, 2);
         });
     }
 
