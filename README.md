@@ -10,3 +10,5 @@
 
 
   ![ubuntu-run-tests](https://github.com/Codersbay-Java/exercise-09-ci-Treekaya/actions/workflows/ubuntu-run-tests.yaml/badge.svg?event=push)
+
+  ![windows-run-tests](https://github.com/Codersbay-Java/exercise-09-ci-Treekaya/actions/workflows/windows-run-tests.yaml/badge.svg?event=push)
